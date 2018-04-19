@@ -10,6 +10,8 @@ Passing Array to a Function using its address
 using namespace std;
 
 int SumOfElement( int A[] )   // this is really: int *A
+
+
 {
     int sum = 0;
     for(int i = 0; i < 5; i++)
@@ -21,6 +23,8 @@ int SumOfElement( int A[] )   // this is really: int *A
 }
 
 int main()
+
+
 {
     int A[] = {1,2,3,4,5};
     int total = SumOfElement(A);    // this really: passed the base address of array
